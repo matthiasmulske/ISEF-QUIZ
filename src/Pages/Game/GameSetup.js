@@ -1,7 +1,7 @@
 import GameButton from "../../atoms/GameButton";
 import GameCategoryDropdown from "../../atoms/GameCategoryDropdown";
 import GameInput from "../../atoms/GameInput";
-import GameLinkContainer from "../../components/GameLinkContainer";
+import GameLinkContainer from "../../components/GameLinkContainer.js";
 import React, { useState, useEffect } from "react";
 import AccessAlarmIcon from "@mui/icons-material/AccessAlarm";
 import LoopIcon from "@mui/icons-material/Loop";
