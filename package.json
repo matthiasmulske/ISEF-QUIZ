@@ -17,6 +17,7 @@
     "@testing-library/user-event": "^13.5.0",
     "apple-signin-auth": "^1.7.6",
     "bootstrap": "^5.3.2",
+    "gh-pages": "^6.1.1",
     "material-icons": "^1.13.12",
     "react": "^18.2.0",
     "react-apple-login": "^1.1.6",
@@ -30,7 +31,10 @@
     "react-spinners": "^0.13.8",
     "web-vitals": "^2.1.4"
   },
+  "homepage": "https://matthiasmulske.github.io/ISEF-QUIZ/",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -b master -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
