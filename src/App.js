@@ -32,6 +32,7 @@ function App() {
         <Route path="/AddQuestion" element={<AddQuestion/>} />
         <Route path="/" element={<Homepage isLoggedIn={isLoggedIn}/> } />
         <Route path="/Login" element={<Login setUser={setUser} />} />
+        <Route path="/LoginMaske" element={<LoginMaske/>}/>
         <Route path="/GameSetup" element={<GameSetup />} />
         <Route path="/Game" element={<Game />} />
         <Route path="/PrivacyPolicyPage" element={<PrivacyPolicyPage />} />
