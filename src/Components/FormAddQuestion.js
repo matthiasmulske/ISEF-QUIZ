@@ -4,7 +4,6 @@ import QuizTextField from "../atoms/QuizTextField";
 import DropDown from "../atoms/DropDown";
 import ButtonQuiz from "../atoms/ButtonQuiz";
 import {useState} from "react";
-import questions from "../data/questions.json"
 import {
   postAddQuestion
 } from "../api.js";

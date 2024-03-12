@@ -10,8 +10,8 @@ import Homepage from "./pages/Startseite/Homepage";
 import GameSetup from "./pages/Game/GameSetup";
 import Game from "./pages/Game/Game";
 import Navbar from "./components/Navbar";
-import GameButton from "./atoms/GameButton";
-import React, { useState, useEffect } from 'react';
+//import GameButton from "./atoms/GameButton";
+import React, { useState, } from 'react';
 
 function App() {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
